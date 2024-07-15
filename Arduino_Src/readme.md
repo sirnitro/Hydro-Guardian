@@ -4,3 +4,4 @@ Create one file to hold all configuration values to make things easier for users
 <br/>Add PH Support
 <br/>Add PH/Nute Calculations
 <br/>Add Relay Controllers (Pumps, Bubbler)
+<br/>Comment Code
