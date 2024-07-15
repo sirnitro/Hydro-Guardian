@@ -1,0 +1,16 @@
+[Unit]
+Description=Grab Serial Serial Data Reader/Writer
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simplep
+ExecStart=/usr/local/bin/grabserial -B 9600 -d /dev/ttyUSB0 -T -o "/etc/hydrobot/data.log"
+WorkingDirectory=/etc/hydrobot
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=%n
