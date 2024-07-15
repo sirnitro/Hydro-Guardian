@@ -1,0 +1,4 @@
+/* Last Update 071424-02*/
+#define SECRET_SSID "YOUR_SSID"
+#define SECRET_PASS "YOUR_PASSWORD"
+#define DWEET_THING "YOUR_DWEET_IO"
