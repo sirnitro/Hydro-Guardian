@@ -1,6 +1,6 @@
 These are the files that are meant to be uploaded to an Arduino UNO R4 Wifi. 
-TODO:
+<br><b>TODO:</b><br/>
 Create one file to hold all configuration values to make things easier for users to update.
-Add PH Support
-Add PH/Nute Calculations
-Add Relay Controllers (Pumps, Bubbler)
+<br/>Add PH Support
+<br/>Add PH/Nute Calculations
+<br/>Add Relay Controllers (Pumps, Bubbler)
